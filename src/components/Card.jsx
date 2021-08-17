@@ -48,11 +48,13 @@ const Card = ({
         </div>
       </article>
       <article className="pb-6 pt-3">
-        <button className={`${
-        !isEven
-          ? "bg-gradient-to-r from-gradient-1 to-gradient-2 text-white"
-          : "bg-white text-grayish-blue md:transform md:-translate-y-3"
-      }   uppercase w-4/5 py-3 rounded-lg`}>
+        <button
+          className={`${
+            !isEven
+              ? "bg-gradient-to-r from-gradient-1 to-gradient-2 text-white"
+              : "bg-white text-grayish-blue md:transform md:-translate-y-3"
+          }   uppercase w-4/5 py-3 rounded-lg`}
+        >
           learn more
         </button>
       </article>
